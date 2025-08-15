@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  color: var(--grey-text-color);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.4;
+  color: var(--main-text-color);
+  margin-bottom: 32px;
+}
+
+.date {
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--main-text-color);
+}
+
+.section p {
+  line-height: 1.6;
+}

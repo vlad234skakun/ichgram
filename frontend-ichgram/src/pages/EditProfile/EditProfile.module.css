@@ -1,0 +1,123 @@
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+		margin: 48px 167px 0px 167px;
+    gap: 33px;
+    /* padding: 48px 0; */
+}
+
+.btnBox { 
+	width: 114px;
+	height: 32px;
+}
+
+.titlePage {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--main-text-color);
+    margin-bottom: 11px;
+}
+
+.profileBlock {
+    width: 100%;
+    border-radius: 20px;
+    background: var(--color-secondary);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.profileDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+}
+
+.username {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--main-text-color);
+}
+
+.fullName {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--grey-text-color);
+}
+
+.avatarBox {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid var(--avatar-border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--form-background-color);
+}
+
+.uploadBox {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.label {
+  font-weight: 700;
+	font-size: 16px;
+}
+
+.input, .textarea {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.button {
+  padding: 10px;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}

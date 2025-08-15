@@ -1,0 +1,26 @@
+:root {
+  /* Основной фон */
+  --color-background: #FFFFFF;
+  --color-black: #000000;
+  --colot-resetpass: #262626;
+
+  /* Кнопки */
+  --color-primary: #0095F6;     
+  --color-secondary: #EFEFEF;   
+	/* Input */
+	--input-color: #EFEFEF;
+  /* Текст */
+  --color-text: #111827; 
+  --color-button-text: #FFFFFF;
+	--color-footerText: #737373;     
+  --color-link: #60a5fa;         
+	--color-link-moreinfos: #00376B;
+
+  /* Чат (сообщение от меня) */
+  --color-message-own: #8b5cf6;  /* фиолетовый */
+
+  /* Дополнительно (по желанию) */
+  --color-border: #DBDBDB;
+  --color-error: #FF0014;
+  --color-success: #10b981;
+}

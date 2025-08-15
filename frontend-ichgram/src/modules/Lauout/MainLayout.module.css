@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  /* margin-bottom: 175px; */
+
+  /* height: 100vh; */
+  /* background-color: #fff; */
+}
+
+.sidebar {
+  width: 240px;
+  /* background-color: #606060; */
+  border-right: 1px solid var(--color-border);
+  position: relative; /* обязательно */
+  z-index: 1300;       /* больше чем у Drawer */
+}
+
+.main {
+  /* flex: 1;
+  padding: 20px;
+  overflow-y: auto; */
+  width: 100%;
+  margin-bottom: 175px;
+}
+
+.footer { 
+  display: flex;
+  justify-content: center;
+  height: 158px;
+}
