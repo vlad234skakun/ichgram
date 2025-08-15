@@ -1,0 +1,85 @@
+/* ---------- Layout ---------- */
+
+.registerpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registerformContainer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* ---------- Form Block ---------- */
+
+.registerformBlock {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-border);
+  border-radius: 1px;
+  padding: 20px 40px;
+}
+
+.registerformBlock img {
+  height: 150px;
+}
+
+.registerformBlock h1,
+.loginLinkBlock h1 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-footerText);
+}
+
+.registerformBlock h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-footerText);
+  text-align: center;
+}
+
+.registerformBlock h3 {
+  font-size: 12px;
+  color: var(--color-footerText);
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.registerformBlock h2 { 
+	margin-bottom: 20px;
+}
+
+.registerformBlock a {
+  font-size: 12px;
+  color: var(--color-link-moreinfos);
+  text-decoration: none;
+  margin-top: 70px;
+}
+
+/* ---------- Login Link Block ---------- */
+
+.loginLinkBlock {
+  display: flex;
+	justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: 1px;
+  padding: 22px 74px;
+  width: 100%;
+}
+
+.loginLinkBlock h1 span a {
+  font-size: 14px;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* ---------- Buttons ---------- */
+
+.Buttonwrapper {
+  margin-top: 10px;
+}

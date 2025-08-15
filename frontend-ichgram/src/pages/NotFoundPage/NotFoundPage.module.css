@@ -1,0 +1,26 @@
+.notFoundPageContainer { 
+	display: flex;
+	gap: 40px;
+	margin: 94px 119px;
+}
+
+.textBlock { 
+	display: flex;
+	flex-direction: column;
+	padding-top: 120px;
+
+}
+
+.textBlock h1 { 
+	font-size: 36px;
+	font-weight: 700;
+	color: var(--color-black);
+	margin-bottom: 20px;
+	
+}
+
+.textBlock { 
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--color-footerText)
+}

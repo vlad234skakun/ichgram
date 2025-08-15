@@ -1,0 +1,39 @@
+.profileInfoContainer { 
+	display: flex;
+	gap: 94px;
+}
+
+.profileInfoBox {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titleBox {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.info { 
+	display: flex;
+	gap: 80px;
+}
+
+.info span { 
+	margin-right: 3px;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.buttonWrapper { 
+	width: 168px;
+	display: flex;
+}
+
+.title { 
+	font-size: 19px;
+	color: var(--color-black);
+}
+

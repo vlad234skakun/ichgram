@@ -1,0 +1,30 @@
+.button { 
+ /* padding: 7px 110px;  подходит для форм регистрации и логина так что нужно уточнить паденги потом*/  
+  padding: 7px 0px; 
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 14px;
+  width: 100%;
+}
+
+.primery { 
+	background-color: var(--color-primary);
+	color: var(--color-background); 
+}
+
+.primery:hover { 
+  background-color: var(--color-link-moreinfos);
+}
+
+.secondary { 
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+}
+
+.secondary:hover { 
+  background-color: var(--color-footerText);
+}
+
