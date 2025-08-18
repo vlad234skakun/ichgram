@@ -6,7 +6,8 @@ Dies ist eine Webanwendung ähnlich wie Instagram, entwickelt zum Austausch mit 
 - Registrierung und Login mit E-Mail-Bestätigung  
 - Erstellung und Bearbeitung des Profils (Name, Beschreibung, Foto)  
 - Veröffentlichung von Beiträgen mit Bildern  
-- Möglichkeit, Beiträge zu liken und zu kommentieren  
+- Möglichkeit, Beiträge zu liken und zu kommentieren
+- Folgen und Entfolgen von Benutzern
 - Eigene Beiträge anzeigen und löschen  
 
 ### In Arbeit:
@@ -27,7 +28,8 @@ This is a web application similar to Instagram, designed for connecting with fri
 - User registration and login with e-mail confirmation  
 - Profile creation and editing (name, bio, photo)  
 - Posting images with text  
-- Like and comment functionality for posts  
+- Like and comment functionality for posts
+- Follow and unfollow users
 - Ability to view and delete your own posts  
 
 ### In progress:
@@ -49,7 +51,8 @@ This is a web application similar to Instagram, designed for connecting with fri
 - Регистрация и вход с подтверждением e-mail через почту  
 - Создание и редактирование профиля (имя, описание, фото)  
 - Публикация постов с изображениями  
-- Возможность ставить лайки и оставлять комментарии к постам  
+- Возможность ставить лайки и оставлять комментарии к постам
+- Подписка и отписка от пользователей 
 - Просмотр и удаление собственных постов  
 
 ### В разработке:
